@@ -32,13 +32,8 @@ public class AmazonTest {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#twotabsearchtextbox")));
     }
 
-    @And("^I have put the first book \"(.*)\" into the shopping cart$")
-    public void putFirstBookInShoppingCart(String bookName) {
-        buyBook(bookName);
-    }
-
-    @And("^I have put the second book \"(.*)\" into the shopping cart$")
-    public void putSecondBookInShoppingCart(String bookName) {
+    @And("^I have put the book \"(.*)\" into the shopping cart$")
+    public void putBookInShoppingCart(String bookName) {
         buyBook(bookName);
     }
 
