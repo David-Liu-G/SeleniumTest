@@ -5,5 +5,5 @@ import cucumber.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @Cucumber.Options(format = {"pretty", "html:target/cucumber"})
-
+//run gherkin script with cucumber framework
 public class runTest { }

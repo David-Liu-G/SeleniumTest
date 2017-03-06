@@ -1,4 +1,5 @@
-Feature: As a consumer I would like to remove product "product name" from the shopping cart so that I don't need to purchase the product "product name" as part of a future order.
+Feature: As a consumer I would like to remove product "product name" from the shopping cart so that I don't need to purchase the product "product name" as
+  part of a future order.
 
 #normal flow
   Scenario: Remove the item "Ice Ages: Solving the mystery" from the shopping cart by using "delete"
